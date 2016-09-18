@@ -1,0 +1,11 @@
+var xs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var s = 'abcde';
+var x = 2;
+var y = 3;
+var z = 4;
+x = y = z = 1;
+var result = 2 * 8 < 3;
+var result2 = ( 2  < 3 ) === false;
+var arrCompr = [ for (x of xs) if (x < 6) x ];
+var arrCompr2 = [ for (y of arrCompr) y = y + 10 ];
+var arrCompr3 = [ for (z of s ) z = z + ' was evaluated correctly!'];
